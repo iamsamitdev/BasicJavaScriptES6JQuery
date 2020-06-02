@@ -45,6 +45,8 @@ console.log(x);
 
 // ฟังก์ชันดึงวันที่ออกมา
 var day = new Date().getDay();
+console.log(new Date().getTime());
+
 switch(day){
     case 0:
         console.log("Sunday");
@@ -63,3 +65,5 @@ switch(day){
         document.body.style.backgroundColor = "white";
         break;
 }
+
+// Day 1 Complete
